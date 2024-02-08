@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <H1>Conversor de Temperatura</H1>
+        <input type="number" id="textBox" value="0">
+        <br>
+        <input type="radio" id="toF" name="unit">
+        <label for="toF">Celsius→Fahreheit</label>
+       
+    <br>
+        <input type="radio" id="toC" name="unit">
+        <label for="toC">Fahreheit→Celsius</label>
+      
+        <br>
+        <button type="button" onclick="convert()">Enviar</button>
+        <p id="resultado"></p>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
